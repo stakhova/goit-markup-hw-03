@@ -1,0 +1,240 @@
+:root{
+    --back-color: #2F303A;
+    --main-color: #212121;
+    --grey-color: #757575;
+    --lightgrey-color: #F5F4FA;
+    --blue-color: #2196F3;
+    --header-bottom: #ECECEC;
+    --portfolio-border: #EEEEEE;
+    --raleway:'Raleway';
+    --roboto: 'Roboto', sans-serif;
+
+}
+
+body{
+    margin: 0;
+    font-family: var(--roboto),Arial, Helvetica, sans-serif;
+    color: var(--main-color);
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+p,h1,h2,h3{
+    margin: 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    box-sizing: border-box;
+}
+
+.header-wrap{
+    border-bottom: 1px solid var(--header-bottom);
+}
+.header{
+    padding: 24px 0 ;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.header-pages li{
+    margin-right: 50px;
+}
+.header-contact li{
+    margin-left: 50px;
+}
+.link:hover,
+.link:focus,
+.header-pages-active{
+    color: var(--blue-color);
+}
+.header-contact{
+    color: var(--grey-color);
+}
+.logo{
+    font-family: var(--raleway);
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-right: 93px ;
+}
+.logo span{
+    color: var(--blue-color);
+}
+
+.section{
+    padding: 94px 0;
+}
+.section-title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.head{
+    padding: 200px 0;
+    background-color:var(--main-color) ;
+    color: white;
+}
+.head-title{
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.head-button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 32px;
+    border: none;
+    color: white;
+    background-color: var(--blue-color);
+}
+
+.features-wrap{
+    padding-bottom: 0;
+}
+.features{
+    margin: 0 -15px;
+}
+.features-item h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.features-item{
+    margin: 0 15px;
+}
+.features-item p{
+    line-height: 1.71;
+    color: var(--grey-color);
+}
+
+.team{
+    background-color:var(--lightgrey-color);
+}
+.team-card{
+    max-width: 270px;
+    background-color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-img{
+    width: 100%;
+    object-fit: cover;
+}
+.team-text{
+    padding: 30px 0;
+    text-align: center;
+}
+.team-text h3{
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.team-text p{
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--grey-color);
+}
+
+.portfolio-filter{
+    justify-content: center;
+}
+.portfolio-filter li{
+    margin: 0 4px;
+}
+.portfolio-button{
+    margin-bottom: 50px;
+    font-family: var(--roboto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    padding: 6px 22px;
+    background: var(--lightgrey-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.portfolio-button:hover, .portfolio-button:focus{
+    color: white;
+    background-color: var(--blue-color);
+}
+.portfolio-gallery{
+    flex-wrap: wrap;
+    margin: -15px;
+}
+.portfolio-item{
+    width: 370px;
+    margin: 15px;
+    display: inline-block;
+}
+.portfolio-item img{
+    margin-bottom: -5px;
+}
+.portfolio-text{
+    padding: 20px 24px;
+    border: 1px solid var(--portfolio-border);
+    box-sizing: border-box;
+}
+.portfolio-text h3{
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-text p{
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--grey-color);
+}
+
+
+
+.footer{
+    padding: 60px 0;
+    background-color: var(--main-color);
+    color: var(--grey-color);
+}
+.footer-contact li:first-child, .footer-logo{
+    color: white;
+}
+
+.footer-contact{
+    margin-top: 20px;
+    line-height:1.71 ;
+    font-style: normal;
+}
+.footer-contact li:not(:last-child){
+    margin-bottom: 9px;
+}
