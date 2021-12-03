@@ -45,8 +45,7 @@ p,h1,h2,h3{
 
 .header-wrap{
     border-bottom: 1px solid var(--header-bottom);
-    padding: 24px 25px;
-    margin: 0 -25px;
+    padding: 24px 0 25px;
 }
 .header{
     font-weight: 500;
