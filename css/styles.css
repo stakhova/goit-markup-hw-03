@@ -115,6 +115,10 @@ p,h1,h2,h3{
     background-color: var(--blue-color);
 }
 
+.todo-item{
+    width: 370px;
+}
+
 .features-wrap{
     padding-bottom: 0;
 }
@@ -144,8 +148,8 @@ p,h1,h2,h3{
 .team-card{
     max-width: 270px;
     background-color: white;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 4px 4px;
 }
 .team-img{
     width: 100%;
@@ -234,6 +238,7 @@ p,h1,h2,h3{
 }
 .footer-list:first-child, .footer-logo{
     color: white;
+    margin-right: 0;
 }
 .footer-contact{
     margin-top: 20px;
