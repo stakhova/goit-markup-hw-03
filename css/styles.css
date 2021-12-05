@@ -209,7 +209,7 @@ p,h1,h2,h3{
     margin: 15px;
 }
 .portfolio-item img{
-    margin-bottom: -5px;
+    display: block;
 }
 .portfolio-text{
     padding: 20px 24px;
